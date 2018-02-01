@@ -1,0 +1,13 @@
+---
+
+- hosts: vfirstipa.com
+        - name: add user testuser1
+                user: testuser1
+                name: "testuser1"
+                state: present
+                groups: "wheel"
+        - name: add user testuser2
+                user: testuser2
+                name: "testuser2"
+                state: present
+                groups: "wheel"
